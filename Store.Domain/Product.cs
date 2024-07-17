@@ -4,14 +4,14 @@ namespace Store.Domain
 {
     public class Product
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Price { get; set; }
-        public int Quentity { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
 
         [ForeignKey("Category")]
-        public int? CatId { get; set; }
-        public Category? Category { get; set; }
+        public int CatId { get; set; }
+        public Category Category { get; set; }
     }
 }
