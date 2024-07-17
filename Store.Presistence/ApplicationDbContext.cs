@@ -47,10 +47,10 @@ namespace Store.Presistence
 
 
             modelBuilder.Entity<Product>()
-                .HasData(new Product() { Id = 1, Name = "Oppo", Description = "Flagship one", Price = 2000, Quentity = 10, CatId = 1 },
-                new Product() { Id = 2, Name = "IPhone", Description = "Flagship one", Price = 3000, Quentity = 10, CatId = 1 },
-                new Product() { Id = 3, Name = "Kia", Description = "Expinsive one", Price = 20000, Quentity = 10, CatId = 2 },
-                new Product() { Id = 4, Name = "Bmw", Description = "Expinsive one", Price = 30000, Quentity = 10, CatId = 2 }
+                .HasData(new Product() { Id = 1, Name = "Oppo", Description = "Flagship one", Price = 2000, Quantity = 10, CatId = 1 },
+                new Product() { Id = 2, Name = "IPhone", Description = "Flagship one", Price = 3000, Quantity = 10, CatId = 1 },
+                new Product() { Id = 3, Name = "Kia", Description = "Expinsive one", Price = 20000, Quantity = 10, CatId = 2 },
+                new Product() { Id = 4, Name = "Bmw", Description = "Expinsive one", Price = 30000, Quantity = 10, CatId = 2 }
                 );
 
 
